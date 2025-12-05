@@ -325,6 +325,7 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VersInfoEx.ja-JP.rc" />
+    <ResourceCompile Include="VersInfoEx.pl-PL.rc" />
     <ResourceCompile Include="VersInfoEx.rc">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">_UNICODE;_DEBUG;_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='UDebug|Win32'">$(OUTDIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

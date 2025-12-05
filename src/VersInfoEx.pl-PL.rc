@@ -1,0 +1,106 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_POLISH, 0x1
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VERSINFOEX_PROPPAGE DIALOGEX 0, 0, 227, 200
+STYLE DS_MODALFRAME | DS_SHELLFONT | DS_NOIDLEMSG | WS_POPUP | WS_CAPTION
+CAPTION "Wersja"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Wersja pliku:",IDC_STATIC,7,10,44,8
+    EDITTEXT        IDC_FILE_VERSION_EDIT,54,10,150,12,ES_AUTOHSCROLL |
+                    ES_READONLY | NOT WS_BORDER
+    LTEXT           "Opis:",IDC_STATIC,7,29,42,8
+    EDITTEXT        IDC_DESCRIPTION_EDIT,54,29,150,12,ES_AUTOHSCROLL |
+                    ES_READONLY | NOT WS_BORDER
+    LTEXT           "Prawa autorskie:",IDC_STATIC,7,48,40,8
+    EDITTEXT        IDC_COPYRIGHT_EDIT,54,48,150,12,ES_AUTOHSCROLL |
+                    ES_READONLY | NOT WS_BORDER
+    GROUPBOX        "Pozostałe informacje o wersji",IDC_STATIC,7,70,212,122
+    LTEXT           "Nazwa elementu:",IDC_STATIC,16,84,51,8
+    LTEXT           "Wartość:",IDC_STATIC,106,84,92,8
+    LISTBOX         IDC_ITEM_NAME_LISTBOX,16,94,84,89,LBS_SORT |
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL |
+                    WS_TABSTOP
+    EDITTEXT        IDC_VALUE_EDIT,105,94,106,89,ES_MULTILINE |
+                    ES_READONLY | WS_VSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_VERSINFOEX_PROPPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_VERSINFOEX_PROPPAGE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_VN_FILEVERSION      "Wersja pliku"
+    IDS_VN_COMMENTS         "Komentarze"
+    IDS_VN_COMPANYNAME      "Firma"
+    IDS_VN_INTERNALNAME     "Nazwa wewnętrzna"
+    IDS_VN_LEGALTRADEMARKS  "Prawne znaki towarowe"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_VN_ORIGINALFILENAME "Oryginalna nazwa pliku"
+    IDS_VN_PRIVATEBUILD     "Prywatny opis wersji"
+    IDS_VN_PRODUCTNAME      "Nazwa produktu"
+    IDS_VN_PRODUCTVERSION   "Wersja produktu"
+    IDS_VN_SPECIALBUILD     "Specjalny opis wersji"
+END
+
+#endif    // Polish (Polish) resources
+/////////////////////////////////////////////////////////////////////////////
